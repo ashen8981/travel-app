@@ -1,9 +1,11 @@
-import Topbar from "./components/TopBar";
+import TopBar from "./components/TopBar";
+import NavBar from "./components/NavBar";
 
 function App() {
   return (
     <div>
-      <Topbar />
+      <TopBar />
+      <NavBar />
     </div>
   );
 }

@@ -2,7 +2,7 @@ import React from 'react'
 import {AiFillPhone, AiOutlineClockCircle} from 'react-icons/ai'
 import {BsChatSquareDots} from 'react-icons/bs'
 
-function Topbar() {
+function TopBar() {
   return (
     <div className='flex justify-between items-center px-4 py-2'>
         <div className='flex items-center'>
@@ -24,4 +24,4 @@ function Topbar() {
   )
 }
 
-export default Topbar;
+export default TopBar;
